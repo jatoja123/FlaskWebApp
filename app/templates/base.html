@@ -11,6 +11,16 @@
 </head>
 <body class= bg-dark>
     {% block navbar %}
+
+    {% if page=="/" %}
+
+    {%endif%}
+
+    {% if page=="/galeria" %}
+
+    {%endif%}
+
+
     <nav class="navbar navbar-expand-lg navbar-light bg-info">
             <a class="navbar-brand" href="#">SUPER PAGE</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,11 +43,11 @@
                     <a class="dropdown-item" href="#">Play games</a>
                     <a class="dropdown-item" href="#">Download app</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="/galeria">See the gallery</a>
+                    <a class="dropdown-item" href="#">Forum</a>
                   </div>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link disabled text-warning" href="#">Forum</a>
+                  <a class="nav-link disabled text-warning" href="/galeria">Galeria</a>
                 </li>
               </ul>
               <form class="form-inline my-2 my-lg-0">
