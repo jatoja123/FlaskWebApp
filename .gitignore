@@ -1,2 +1,7 @@
 venv/
 app/__pycache__
+
+#python -m venv venv
+#venv\Scripts\activate
+#pip install flask
+#python webapp.py
